@@ -88,8 +88,8 @@ if __name__ == "__main__":
     search1 = BaiduNewSpider(
         keyWord,
         headers,
-        "2018-01-08 00:00:00",
-        "2019-01-08 00:00:00",
+        "2017-01-08 00:00:00",
+        "2019-01-19 00:00:00",
         1
     )
     search1.urls = BaiduNewSpider.makeUrls(search1.keyWord, search1.startTime, search1.stopTime, search1.timeStep)
